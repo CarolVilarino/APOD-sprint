@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Solarian;
+    src: url(../fonts/Solarian.ttf) format(ttf);
+}
+@font-face {
+    font-family: Ailerons;
+    src: url(../fonts/Ailerons.otf) format(otf);
+}
+
+body{
+    background-image: linear-gradient(to right,#542bc4 , #c115c1); 
+}
+section {  
+    height: 100%;
+    padding-top: 50px;
+}
+img-container {
+    height: 100%;
+    top: 100%;
+}
+
+/* section APOD */
+.apod > .title {
+    font-family: Solarian;
+    text-align: center;
+    font-size: 70px;
+} 
+.apod > .texto {
+    font-family: Ailerons;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 10px 5px 15px #fefedfcc;
+    letter-spacing: -2px;
+}
+.date-select {  
+    position: absolute;
+    right: 0;
+}
+.date-select > form {  
+    margin-right: 200px;
+    padding: 50px;
+}
+#btn {
+    /* background-color: #ff8066; */
+    background-color: transparent;
+    border: #4b4453 2px; 
+    /* border: none; */
+    margin: 5px;
+    padding: 10px 30px; 
+    border-radius: 15px; 
+}
+
+/* section image */
+.img-container {
+    display: flex;
+}
+.imagem {
+    padding-top: 50px;
+    padding: 70px;
+    width: 70%; 
+}
+#img-api{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;  
+    width: 100%;
+    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.744);
+}
+.box-texto {
+    margin-top: 200px;
+    background-color: #fefedf ;
+    color: #4b4453 ; 
+    box-shadow: 15px 10px 20px #00000098;
+    float: right;
+    width: 30%;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: justify;
+    height: 100%;
+}
+
